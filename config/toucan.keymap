@@ -25,7 +25,7 @@
         nav {
             display-name = "NAV";
             bindings = <
-&studio_unlock  &kp LA(F4)  &kp ESCAPE  &kp LA(LEFT)  &kp LA(RIGHT)  &kp LC(RIGHT)  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END  &trans  &trans  &trans  &to 2  &kp LS(TAB)  &kp TAB  &kp TAB  &kp LA(TAB)  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &to 3  &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(LEFT)  &msc MOVE_X(-20)  &msc MOVE_Y(-20)  &msc MOVE_Y(20)  &msc MOVE_X(20)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&studio_unlock  &kp LA(F4)  &kp ESCAPE  &mkp MB4  &mkp MB5  &kp LC(RIGHT)  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END  &trans  &trans  &trans  &to 2  &kp LS(TAB)  &kp TAB  &kp TAB  &kp LA(TAB)  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &to 3  &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(LEFT)  &msc MOVE_X(-20)  &msc MOVE_Y(-20)  &msc MOVE_Y(20)  &msc MOVE_X(20)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
