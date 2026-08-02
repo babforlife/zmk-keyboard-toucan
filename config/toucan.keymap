@@ -18,6 +18,10 @@
     quick-tap-ms = <200>;
 };
 
+&sk { quick-release; };
+
+&sl { ignore-modifiers; };
+
 / {
     conditional_layers { compatible = "zmk,conditional-layers"; };
 
@@ -47,7 +51,7 @@
         nav {
             display-name = "NAV";
             bindings = <
-&studio_unlock  &kp LA(F4)  &kp LC(T)  &mkp MB4  &mkp MB5  &kp LC(RIGHT)  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END  &trans  &trans  &trans  &kp LC(A)  &kp LS(TAB)  &kp TAB  &kp TAB  &kp LC(LEFT_ARROW)  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans  &trans  &kp LC(Z)  &kp LC(X)  &kp LC(W)  &kp LC(V)  &kp LC(P)  &msc MOVE_X(-20)  &msc MOVE_Y(-20)  &msc MOVE_Y(20)  &msc MOVE_X(20)  &trans  &trans  &kp CAPSLOCK  &kp DELETE  &trans  &trans  &mo 2  &trans
+&studio_unlock  &kp LA(F4)  &kp LC(T)  &mkp MB4  &mkp MB5  &kp LC(RIGHT)  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END  &trans  &trans  &trans  &kp LC(A)  &kp LS(TAB)  &kp TAB  &kp TAB  &kp LC(LEFT_ARROW)  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans  &trans  &kp LC(Z)  &kp LC(X)  &kp LC(W)  &kp LC(V)  &kp LC(P)  &msc MOVE_X(-20)  &msc MOVE_Y(-20)  &msc MOVE_Y(20)  &msc MOVE_X(20)  &trans  &trans  &kp CAPSLOCK  &ltHold 2 DELETE  &trans  &trans  &mo 2  &trans
             >;
         };
 
