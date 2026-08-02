@@ -10,9 +10,13 @@
 &mt {
     flavor = "tap-preferred";
     tapping-term-ms = <300>;
+    quick-tap-ms = <200>;
 };
 
-&lt { tapping-term-ms = <300>; };
+&lt {
+    tapping-term-ms = <300>;
+    quick-tap-ms = <200>;
+};
 
 / {
     conditional_layers { compatible = "zmk,conditional-layers"; };
@@ -25,6 +29,8 @@
             tapping-term-ms = <150>;
             flavor = "hold-preferred";
             bindings = <&mo>, <&kp>;
+
+            quick-tap-ms = <200>;
         };
     };
 
