@@ -63,7 +63,7 @@
         num {
             display-name = "NUM";
             bindings = <
-&trans  &kp LS(NUMBER_1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)  &trans  &trans  &kp NUMBER_1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp C  &kp DOT  &kp N  &kp LS(N)  &kp MINUS  &trans  &trans  &kp RS(SPACE)  &kp BACKSPACE  &kp BACKSPACE  &kp RS(SPACE)  &trans
+&trans  &kp LS(NUMBER_1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)  &trans  &trans  &kp NUMBER_1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp C  &kp DOT  &kp N  &kp LS(N)  &kp MINUS  &trans  &trans  &kp SPACE  &kp BACKSPACE  &kp BACKSPACE  &kp SPACE  &trans
             >;
         };
 
