@@ -32,22 +32,7 @@
 
             quick-tap-ms = <200>;
         };
-
-        slDeep: slDeep {
-            compatible = "zmk,behavior-hold-tap";
-            label = "sl deep";
-            bindings = <&mo>, <&sl>;
-
-
-
-
-
-            #binding-cells = <2>;
-            flavor = "tap-preferred";
-            tapping-term-ms = <300>;
-        };
     };
-
 
     keymap {
         compatible = "zmk,keymap";
